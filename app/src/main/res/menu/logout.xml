@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/logoutButton"
+        android:title="@string/logout"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/deleteAllUsersDataButton"
+        android:title="Delete All Users Data" />
+
+    <item
+        android:id="@+id/deleteAllPostsDataButton"
+        android:title="Delete All Posts Data" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+</menu>
