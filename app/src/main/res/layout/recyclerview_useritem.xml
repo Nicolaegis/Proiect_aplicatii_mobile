@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<!--        Functionality-->
+        <ImageView
+            android:id="@+id/userImageView"
+            android:contentDescription="User image"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:layout_constraintStart_toEndOf="@+id/verticalGuideline"
+            app:layout_constraintTop_toBottomOf="@+id/horizontalGuideline"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/userImageView"
+            app:layout_constraintTop_toBottomOf="@id/horizontalGuideline"
+            android:translationX="100dp"
+            tools:text="Leanne Graham"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/userUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/userImageView"
+            app:layout_constraintTop_toBottomOf="@id/horizontalGuideline"
+            android:translationX="100dp"
+            android:translationY="25dp"
+            tools:text="Bret"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/userEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/userImageView"
+            app:layout_constraintTop_toBottomOf="@id/horizontalGuideline"
+            android:translationX="100dp"
+            android:translationY="50dp"
+            tools:text="Sincere@april.biz"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/userPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/userImageView"
+            app:layout_constraintTop_toBottomOf="@id/horizontalGuideline"
+            android:translationX="100dp"
+            android:translationY="75dp"
+            tools:text="1-770-736-8031 x56442"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/userWebsite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/userImageView"
+            app:layout_constraintTop_toBottomOf="@id/horizontalGuideline"
+            android:translationX="100dp"
+            android:translationY="100dp"
+            tools:text="hildegard.org"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:textColor="@color/colorBlack"/>
+
+        <ImageButton
+            android:id="@+id/deleteUserButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_delete"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/delete_button" />
+
+<!--        Just Text-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nume"
+            app:layout_constraintStart_toEndOf="@+id/userImageView"
+            app:layout_constraintTop_toBottomOf="@id/horizontalGuideline"
+            android:translationX="10dp"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            app:layout_constraintStart_toEndOf="@+id/userImageView"
+            app:layout_constraintTop_toBottomOf="@id/horizontalGuideline"
+            android:translationX="10dp"
+            android:translationY="25dp"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email"
+            app:layout_constraintStart_toEndOf="@+id/userImageView"
+            app:layout_constraintTop_toBottomOf="@id/horizontalGuideline"
+            android:translationX="10dp"
+            android:translationY="50dp"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            app:layout_constraintStart_toEndOf="@+id/userImageView"
+            app:layout_constraintTop_toBottomOf="@id/horizontalGuideline"
+            android:translationX="10dp"
+            android:translationY="75dp"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Website"
+            app:layout_constraintStart_toEndOf="@+id/userImageView"
+            app:layout_constraintTop_toBottomOf="@id/horizontalGuideline"
+            android:translationX="10dp"
+            android:translationY="100dp"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:textColor="@color/colorBlack"/>
+
+<!--        Guidelines-->
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/horizontalGuideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="10dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/verticalGuideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="10dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
