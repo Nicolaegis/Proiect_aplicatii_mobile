@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="logout">Logout</string>
+    <string name="userId">User Id</string>
+    <string name="title">title</string>
+    <string name="body">body</string>
+    <string name="delete_button">Delete Button</string>
+</resources>
